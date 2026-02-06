@@ -1,0 +1,27 @@
+{
+  "name": "crud-app",
+  "version": "1.0.0",
+  "description": "a tutorial for intro to backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChiraniSiriwardhana/CRUD-App.git"
+  },
+  "author": "Chirani Siriwardhana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChiraniSiriwardhana/CRUD-App/issues"
+  },
+  "homepage": "https://github.com/ChiraniSiriwardhana/CRUD-App#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "nodemon": "^3.1.11"
+  }
+}
