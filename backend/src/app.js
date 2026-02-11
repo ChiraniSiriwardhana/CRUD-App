@@ -21,10 +21,11 @@ app.use(express.json()); //middleware to parse json data in request body (the re
 
 //routes import
 import userRouter from './routes/user.route.js';
-
+import postRouter from './routes/post.route.js';
 
 // routes declaration
 app.use("/api/v1/users",userRouter); //middleware to handle user routes
+app.use("/api/v1/posts",postRouter); //middleware to handle post routes
 
 //example route: http://localhost:4000/api/v1/users/register
 
